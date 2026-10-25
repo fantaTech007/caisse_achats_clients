@@ -14,13 +14,13 @@ const quantite_de_stylos = 3;
  
 
 console.log("======= caisse ========");
-console.log("cahiers :",montant_cahiers, "FCFA");
-console.log("stylos :",montant_stylos, "FCFA");
-console.log("total :",montant_total, "FCFA");
-console.log("budget :",budget_du_client, "FCFA");
+console.log("cahiers :", montant_cahiers, "FCFA");
+console.log("stylos :", montant_stylos, "FCFA");
+console.log("total :", montant_total, "FCFA");
+console.log("budget :", budget_du_client, "FCFA");
 
 
-if ( total <= budget_du_client) {
+if (montant_total <= budget_du_client) {
     console.log( "budget insuffisant");
 } else {
     console.log("budget insuffisant");
