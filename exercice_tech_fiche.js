@@ -27,3 +27,6 @@ if ( total <= budget_du_client) {
 }
 console.log ("");
 
+
+for (let i = 1; i<=5; i++)
+console.log("achat numero", i)
