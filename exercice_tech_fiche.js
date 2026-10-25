@@ -21,12 +21,11 @@ console.log("budget :", budget_du_client, "FCFA");
 
 
 if (montant_total <= budget_du_client) {
-    console.log( "budget insuffisant");
+console.log( "budget suffisant") ;
 } else {
     console.log("budget insuffisant");
 }
-console.log ("");
 
-
-for (let i = 1; i<=5; i++)
-console.log("achat numero", i)
+for (let i = 1; i<=5; i++){
+    console.log("achat numero", i)
+}
