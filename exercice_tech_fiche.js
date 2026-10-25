@@ -25,3 +25,5 @@ if ( total <= budget_du_client) {
 } else {
     console.log("budget insuffisant");
 }
+console.log ("");
+
